@@ -1,0 +1,51 @@
+.covid-card {  
+    max-width: 350px;  
+}  
+  
+.same-row {  
+    display: inline-block;  
+    padding: 10px;  
+}  
+  
+.table-data {  
+    padding: 10px;  
+    margin: 10px;  
+}  
+  
+table {  
+    padding: 10px;  
+    width: 300px;  
+    border: 1px solid gray;  
+    background-color: honeydew;  
+}  
+  
+tr {  
+    margin: 10px;  
+    padding: 10px;  
+}  
+  
+td {  
+    height: 30px;  
+    vertical-align: center;  
+    border: 1px dotted gray;  
+} 
+
+  @media only screen and (min-width: 600px) {
+    .container {width: 600px;}
+  }
+
+  @media only screen and (min-width: 768px) {
+    .container {width: 768px;}
+  }
+
+  @media only screen and (min-width: 992px) {
+    .container {width: 992px;}
+  } 
+
+  @media only screen and (min-width: 1000px) {
+    .container {width: 1000px;}
+  } 
+
+  @media only screen and (min-width: 1200px) {
+    .container {width: 1200px;}
+  }
